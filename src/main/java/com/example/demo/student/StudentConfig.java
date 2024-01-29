@@ -18,13 +18,11 @@ public class StudentConfig {
                     1L,
                     "Mariam",
                     LocalDate.of(2000, LocalDate.MAX.getMonth(), 5),
-                    21,
                     "mariam@gmail.com"
             );
             Student alex = new Student(
                     "Alex",
                     LocalDate.of(2004, LocalDate.MAX.getMonth(), 5),
-                    21,
                     "alex@gmail.com"
             );
             repository.saveAll(List.of(mariam, alex));
